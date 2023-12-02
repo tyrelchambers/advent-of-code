@@ -1,4 +1,4 @@
-package main
+package day1
 
 import (
 	"cmp"
@@ -47,7 +47,7 @@ func get_last_digit(digits []Digit) Digit {
 	return digits[len(digits)-1]
 }
 
-func main() {
+func Day1() {
 	num_match := map[string]string{
 		"one":   "1",
 		"two":   "2",
